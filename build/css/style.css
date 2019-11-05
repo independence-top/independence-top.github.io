@@ -2490,7 +2490,7 @@ img {
 @media (max-width: 767px) {
   .feedback {
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
     border-radius: 0;
   }
 }
@@ -2759,6 +2759,13 @@ img {
   background-color: #000000;
   opacity: 0.3;
   z-index: 9;
+}
+
+@media (max-width: 767px) {
+  .overlay {
+    background-color: #005494;
+    opacity: 0.9;
+  }
 }
 
 .overlay--show {
