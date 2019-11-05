@@ -1998,6 +1998,12 @@ img {
   }
 }
 
+@media (max-width: 767px) {
+  .groups__toggles {
+    width: 93%;
+  }
+}
+
 .groups__toggle {
   padding: 0;
   background: none;
@@ -2101,6 +2107,15 @@ img {
   margin: 0 0 0 51px;
 }
 
+@media (max-width: 767px) {
+  .causes__info p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 300;
+    margin: 0;
+  }
+}
+
 .causes__slide figure {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2166,6 +2181,22 @@ img {
   top: 43%;
 }
 
+.causes .swiper-button-next:hover, .causes .swiper-button-next:focus, .causes .swiper-button-next:active,
+.causes .swiper-button-prev:hover,
+.causes .swiper-button-prev:focus,
+.causes .swiper-button-prev:active {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .causes .swiper-button-next,
+  .causes .swiper-button-prev {
+    width: 88px;
+    height: 88px;
+    background-size: 24px auto;
+  }
+}
+
 .causes .swiper-container-horizontal > .swiper-pagination-bullets {
   bottom: 47px;
   left: 4px;
@@ -2177,10 +2208,22 @@ img {
   background-position: 21% center;
 }
 
+@media (max-width: 767px) {
+  .causes .swiper-button-next {
+    background-position: 12% center;
+  }
+}
+
 .causes .swiper-button-prev {
   background-image: url("../img/row_left.png");
   left: -55px;
   background-position: 81% center;
+}
+
+@media (max-width: 767px) {
+  .causes .swiper-button-prev {
+    background-position: 89% center;
+  }
 }
 
 .causes .swiper-pagination-bullet {
@@ -2575,6 +2618,12 @@ img {
   border-color: #d3d3d2;
   border-radius: 5px;
   background-color: white;
+}
+
+@media (max-width: 767px) {
+  .feedback input {
+    font-size: 16px;
+  }
 }
 
 .feedback input::-webkit-input-placeholder {
