@@ -1676,6 +1676,10 @@ img {
   cursor: pointer;
 }
 
+.advantages__item:hover, .advantages__item:focus {
+  outline: none;
+}
+
 .advantages__item--blue {
   background-color: #4282ad;
 }
@@ -1723,12 +1727,14 @@ img {
   background-position: 48.8% 14%;
 }
 
-.advantages__item:hover .advantages__item-image {
+.advantages__item:hover .advantages__item-image,
+.advantages__item:focus .advantages__item-image {
   z-index: 1;
   opacity: 0;
 }
 
-.advantages__item:hover .advantages__item-image--hover {
+.advantages__item:hover .advantages__item-image--hover,
+.advantages__item:focus .advantages__item-image--hover {
   z-index: 2;
   opacity: 1;
 }
@@ -1771,7 +1777,8 @@ img {
   }
 }
 
-.advantages__item:hover .advantages__item-content b {
+.advantages__item:hover .advantages__item-content b,
+.advantages__item:focus .advantages__item-content b {
   opacity: 0;
 }
 
@@ -1791,7 +1798,8 @@ img {
   transition: opacity 0.3s ease;
 }
 
-.advantages__item:hover .advantages__item-content p {
+.advantages__item:hover .advantages__item-content p,
+.advantages__item:focus .advantages__item-content p {
   opacity: 0.5;
 }
 
@@ -1810,7 +1818,8 @@ img {
   transition: opacity 0.3s ease;
 }
 
-.advantages__item:hover .advantages__preparats-list {
+.advantages__item:hover .advantages__preparats-list,
+.advantages__item:focus .advantages__preparats-list {
   opacity: 1;
 }
 
