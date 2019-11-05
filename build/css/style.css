@@ -2097,6 +2097,14 @@ img {
   margin: 0 0 47px 0;
 }
 
+@media (max-width: 767px) {
+  .causes__info h2 {
+    font-size: 36px;
+    line-height: 39px;
+    margin: 0 0 25px;
+  }
+}
+
 .causes__info p {
   width: 88%;
   font-size: 20px;
@@ -2111,7 +2119,7 @@ img {
   .causes__info p {
     width: 100%;
     font-size: 16px;
-    line-height: 300;
+    line-height: 18px;
     margin: 0;
   }
 }
