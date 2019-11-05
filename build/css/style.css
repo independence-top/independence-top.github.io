@@ -2490,7 +2490,6 @@ img {
 @media (max-width: 767px) {
   .feedback {
     width: 100vw;
-    height: 60vh;
     border-radius: 0;
   }
 }
